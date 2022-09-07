@@ -14,7 +14,7 @@ const numOnePlusNumTwo = numOne + numTwo
 const numThreeTimesNumTwo = numThree * numTwo
 
 // 3. Set this variable to numThree divided by numOne
-const numThreeDividedByNumOne = numThree/numOne
+const numThreeDividedByNumOne = numThree / numOne
 
 // 4. Set this variable to numThree minus numOne
 const numThreeMinusNumOne = numThree - numOne
@@ -23,7 +23,7 @@ const numThreeMinusNumOne = numThree - numOne
 const sum = numOne + numTwo + numThree
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = (sum)/numOne
+const numBytes = sum / numOne
 
 // do not edit the exported object.
 module.exports = {
