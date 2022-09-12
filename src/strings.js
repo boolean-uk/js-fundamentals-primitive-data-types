@@ -27,3 +27,7 @@ module.exports = {
   c: lowerCaseAlphabet,
   d: numberOfLettersInAlphabet
 }
+console.log(fullName)
+console.log(lowerCaseAlphabet)
+console.log(tenthCharacterOfAlphabet)
+console.log(numberOfLettersInAlphabet)
