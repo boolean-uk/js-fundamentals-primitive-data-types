@@ -21,7 +21,8 @@ const lowerCaseAlphabet = alphabet.toLowerCase()
 console.log(lowerCaseAlphabet)
 
 // 4. Set this variable by using a property on the alphabet variable to get it's length
-const numberOfLettersInAlphabet = null
+const numberOfLettersInAlphabet = alphabet.length
+console.log(numberOfLettersInAlphabet)
 
 // do not edit the exported object.
 module.exports = {
