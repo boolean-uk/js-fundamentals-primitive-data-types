@@ -20,13 +20,16 @@ const numThreeDividedByNumOne = numThree / numOne
 console.log('3. Number three divided by number one: ' + numThreeDividedByNumOne)
 
 // 4. Set this variable to numThree minus numOne
-const numThreeMinusNumOne = NaN
+const numThreeMinusNumOne = numThree - numOne
+console.log('4. number three minus number one: '+ numThreeMinusNumOne)
 
 // 5. Set this variable to the sum of numOne, numTwo and numThree
-const sum = NaN
+const sum = numOne + numTwo + numThree
+console.log('5. sum of all variables: ' + sum )
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = NaN
+const numBytes = (numOne + numTwo + numThree) / numOne
+console.log('6. sum of all three variables divided by variable numOne: ' + numBytes) 
 
 // do not edit the exported object.
 module.exports = {
