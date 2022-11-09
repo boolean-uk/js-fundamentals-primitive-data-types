@@ -8,13 +8,16 @@ const numThree = 32
 //       NOT myAnswer = 336
 
 // 1. Set this variable to numOne added to numTwo
-const numOnePlusNumTwo = NaN
+const numOnePlusNumTwo = numOne + numTwo
+console.log('1. Number one plus number two: ' + numOnePlusNumTwo)
 
 // 2. Set this variable to numThree multiplied by numTwo
-const numThreeTimesNumTwo = NaN
+const numThreeTimesNumTwo = numThree * numTwo
+console.log('2. Number three multiplied by number two: ' + numThreeTimesNumTwo)
 
 // 3. Set this variable to numThree divided by numOne
-const numThreeDividedByNumOne = NaN
+const numThreeDividedByNumOne = numThree / numOne
+console.log('3. Number three divided by number one: ' + numThreeDividedByNumOne)
 
 // 4. Set this variable to numThree minus numOne
 const numThreeMinusNumOne = NaN
