@@ -3,6 +3,8 @@ const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 const firstName = 'Jane'
 const secondName = 'Smith'
 
+console.log(alphabet, firstName, secondName)
+
 // TODO: Replace null in the lines below using Javascript string operations
 //         and the variables above so that the tests pass.
 //       eg  twoJanes = firstName + firstName
