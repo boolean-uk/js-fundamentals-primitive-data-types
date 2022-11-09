@@ -9,24 +9,27 @@ const numThree = 32
 
 // 1. Set this variable to numOne added to numTwo
 const numOnePlusNumTwo = numOne + numTwo
-console.log( "adding number: ", numOnePlusNumTwo)
+console.log('Addition: ', numOnePlusNumTwo)
 
 // 2. Set this variable to numThree multiplied by numTwo
 const numThreeTimesNumTwo = numThree * numTwo
-console.log( " multipications: " ,  numThreeTimesNumTwo)
+console.log('Multiplication: ', numThreeTimesNumTwo)
 
 // 3. Set this variable to numThree divided by numOne
 const numThreeDividedByNumOne = numThree / numOne
-console.log ("dividing variables: " , numThreeDividedByNumOne)
+console.log('Division: ', numThreeDividedByNumOne)
 
 // 4. Set this variable to numThree minus numOne
-const numThreeMinusNumOne = NaN 
+const numThreeMinusNumOne = numThree - numOne
+console.log('Subtraction: ', numThreeMinusNumOne)
 
 // 5. Set this variable to the sum of numOne, numTwo and numThree
-const sum = NaN
+const sum = numOne + numTwo + numThree
+console.log('Adding three numbers: ', sum)
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = NaN
+const numBytes = (numOne + numTwo + numThree) / numOne
+console.log('Addition and division: ', numBytes)
 
 // do not edit the exported object.
 module.exports = {
