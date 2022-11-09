@@ -10,13 +10,13 @@ const secondName = 'Smith'
 
 // 1. Set this variable to firstName and secondName concatenated
 const fullName = null
-
+console.log(alphabet)
 // 2. Set this variable to the 10th character of the alphabet variable
 const tenthCharacterOfAlphabet = null
-
+console.log(firstName)
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
 const lowerCaseAlphabet = null
-
+console.log(secondName)
 // 4. Set this variable by using a property on the alphabet variable to get it's length
 const numberOfLettersInAlphabet = null
 

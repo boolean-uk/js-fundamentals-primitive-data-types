@@ -17,13 +17,16 @@ const numThreeTimesNumTwo = NaN
 const numThreeDividedByNumOne = NaN
 
 // 4. Set this variable to numThree minus numOne
-const numThreeMinusNumOne = NaN
+const numThreeMinusNumOne = numThree - numOne
+console.log(numThreeMinusNumOne)
 
 // 5. Set this variable to the sum of numOne, numTwo and numThree
-const sum = NaN
+const sum = numOne + numTwo + numThree
+console.log(sum)
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = NaN
+const numBytes = sum / numOne
+console.log(numBytes)
 
 // do not edit the exported object.
 module.exports = {
