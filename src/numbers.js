@@ -7,6 +7,10 @@ const numThree = 32
 //       eg  myAnswer = numOne * 42
 //       NOT myAnswer = 336
 
+const myVariable = 'Hello Word!'
+const myNumberVariable = 42
+console.log('This is a place that needs fixing. It does this', "message 2", myVariable, myNumberVariable)
+
 // 1. Set this variable to numOne added to numTwo
 const numOnePlusNumTwo = NaN
 
