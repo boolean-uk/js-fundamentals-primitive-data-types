@@ -9,10 +9,12 @@ const secondName = 'Smith'
 //       NOT twoJanes = "JaneJane"
 
 // 1. Set this variable to firstName and secondName concatenated
-const fullName = null
+const fullName = firstName + " " + secondName
+console.log('1. Full Name: ' + fullName)
 
 // 2. Set this variable to the 10th character of the alphabet variable
-const tenthCharacterOfAlphabet = null
+const tenthCharacterOfAlphabet = alphabet.charAt(9)
+console.log('2. The 10th letter of the alphabet is: ' + tenthCharacterOfAlphabet)
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
 const lowerCaseAlphabet = null
