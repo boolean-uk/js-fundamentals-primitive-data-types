@@ -23,3 +23,5 @@ module.exports = {
   c: howManyVowels,
   d: numOneMultipliedByNumTwo
 }
+
+log.console ()
