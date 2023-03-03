@@ -20,4 +20,3 @@ describe('Example', () => {
 
 })
 
-log.console ()
