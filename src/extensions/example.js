@@ -11,6 +11,9 @@ function getType(v) {
   else return typeof v
 }
 
+getType(aNull)
+console.log(getType);
+
 // do not edit the exported object.
 module.exports = {
   a: getType(aNull),
