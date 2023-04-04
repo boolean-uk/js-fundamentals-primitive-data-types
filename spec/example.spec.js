@@ -1,7 +1,6 @@
 const { a, b, c, d } = require('../src/example')
 
 describe('Example', () => {
-
   it('upperCaseHello is HELLO', () => {
     expect(a).toEqual('HELLO')
   })
@@ -17,5 +16,4 @@ describe('Example', () => {
   it('numOneMultipliedByNumTwo is 200', () => {
     expect(d).toEqual(200)
   })
-
 })
