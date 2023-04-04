@@ -12,22 +12,22 @@ const numThree = 32
 //       NOT myAnswer = 336
 
 // 1. Set this variable to numOne added to numTwo
-const numOnePlusNumTwo = (8 + 16)
+const numOnePlusNumTwo = (numOne + numTwo)
 
 // 2. Set this variable to numThree multiplied by numTwo
-const numThreeTimesNumTwo = (32 * 16)
+const numThreeTimesNumTwo = (numThree * numTwo)
 
 // 3. Set this variable to numThree divided by numOne
-const numThreeDividedByNumOne = (32 / 8)
+const numThreeDividedByNumOne = (numThree / numOne)
 
 // 4. Set this variable to numThree minus numOne
-const numThreeMinusNumOne = (32 - 8)
+const numThreeMinusNumOne = (numThree - numOne)
 
 // 5. Set this variable to the sum of numOne, numTwo and numThree
-const sum = (8 + 16 + 32)
+const sum = (numOne + numTwo + numThree)
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = ((8 + 16+ 32)/8)
+const numBytes = ((numOne + numTwo + numThree)/numOne)
 
 // do not edit the exported object.
 module.exports = {
