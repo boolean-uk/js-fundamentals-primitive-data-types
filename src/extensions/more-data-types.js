@@ -14,9 +14,9 @@ const undefinedVariable = undefined
 
 // 4. get the typeof each of the above variables
 // hint you can use typeof variable to return a string of the variable type
-const typeOfTrueVariable = console.log(typeof trueVariable)
-const typeOfFalseVariable = console.log(typeof falseVariable)
-const typeOfUndefinedVariable = console.log(typeof undefinedVariable)
+const typeOfTrueVariable = typeof trueVariable
+const typeOfFalseVariable = typeof falseVariable
+const typeOfUndefinedVariable = typeof undefinedVariable
 
 // do not edit the exported object.
 module.exports = {
