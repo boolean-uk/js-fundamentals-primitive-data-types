@@ -12,7 +12,7 @@ const numThree = 32
 //       NOT myAnswer = 336
 
 // 1. Set this variable to numOne added to numTwo
-const numOnePlusNumTwo = NaN
+const numOnePlusNumTwo = numOne + numTwo
 
 // 2. Set this variable to numThree multiplied by numTwo
 const numThreeTimesNumTwo = NaN
