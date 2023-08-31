@@ -19,7 +19,7 @@ const fullName = firstName + " " + secondName
 const tenthCharacterOfAlphabet = "J"
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
-const lowerCaseAlphabet = alphabet.toLowerCase
+const lowerCaseAlphabet = alphabet.toLowerCase()
 
 // 4. Set this variable by using a property on the alphabet variable to get it's length
 const numberOfLettersInAlphabet = alphabet.length
