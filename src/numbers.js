@@ -18,7 +18,7 @@ const numOnePlusNumTwo = numOne + numTwo
 const numThreeTimesNumTwo = numThree * numTwo
 
 // 3. Set this variable to numThree divided by numOne
-const numThreeDividedByNumOne = NaN
+const numThreeDividedByNumOne = numThree / numOne
 
 // 4. Set this variable to numThree minus numOne
 const numThreeMinusNumOne = NaN
