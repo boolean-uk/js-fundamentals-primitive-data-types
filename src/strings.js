@@ -16,13 +16,13 @@ const secondName = 'Smith'
 const fullName = firstName + ' ' + secondName
 
 // 2. Set this variable to the 10th character of the alphabet variable
-const tenthCharacterOfAlphabet = alphabet.charAt(10)
+const tenthCharacterOfAlphabet = alphabet.charAt(9)
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
 const lowerCaseAlphabet = alphabet.toLowerCase()
 
-// 4. Set this variable by using a property on the alphabet variable to get it's length
-const numberOfLettersInAlphabet = null
+// 4. Set this variable by using a property on the alphabet variable to get its length
+const numberOfLettersInAlphabet = alphabet.length
 
 // do not edit the exported object.
 module.exports = {
