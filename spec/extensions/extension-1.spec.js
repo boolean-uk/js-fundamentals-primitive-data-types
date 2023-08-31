@@ -2,7 +2,7 @@ const { a, b, c, d } = require('../../src/extensions/example.js')
 
 describe('Example [Extensions]', () => {
   it( "Check null", () => {
-    expect(a).toEqual(null);
+    expect(a).toBe(null);
   })
 
   it( "Check undefined", () => {
