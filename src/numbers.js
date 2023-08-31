@@ -13,11 +13,11 @@ const numThree = 32
 
 // 1. Set this variable to numOne added to numTwo
 const numOnePlusNumTwo = numOne + numTwo
-console.log("Q1 "+numOnePlusNumTwo)
+console.log('Q1 ' + numOnePlusNumTwo)
 
 // 2. Set this variable to numThree multiplied by numTwo
 const numThreeTimesNumTwo = numThree * numTwo
-console.log("Q2 "+numThreeTimesNumTwo)
+console.log('Q2 ' + numThreeTimesNumTwo)
 
 // 3. Set this variable to numThree divided by numOne
 const numThreeDividedByNumOne = numThree / numOne
