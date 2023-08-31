@@ -15,7 +15,7 @@ const numThree = 32
 const numOnePlusNumTwo = numOne + numTwo
 
 // 2. Set this variable to numThree multiplied by numTwo
-const numThreeTimesNumTwo = NaN
+const numThreeTimesNumTwo = numThree *  numTwo
 
 // 3. Set this variable to numThree divided by numOne
 const numThreeDividedByNumOne = NaN
