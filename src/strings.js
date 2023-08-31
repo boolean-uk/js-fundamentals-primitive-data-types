@@ -21,7 +21,8 @@ console.log()
 const tenthCharacterOfAlphabet = alphabet[9]
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
-const lowerCaseAlphabet = null
+console.log(alphabet.toLowerCase())
+const lowerCaseAlphabet = alphabet.toLowerCase()
 
 // 4. Set this variable by using a property on the alphabet variable to get it's length
 const numberOfLettersInAlphabet = null
