@@ -13,11 +13,10 @@ const secondName = 'Smith'
 //       NOT twoJanes = "JaneJane"
 
 // 1. Set this variable to firstName and secondName concatenated
-// eslint-disable-next-line prettier/prettier
 const fullName = firstName + " " + secondName
 
 // 2. Set this variable to the 10th character of the alphabet variable
-const tenthCharacterOfAlphabet = 'J'
+const tenthCharacterOfAlphabet = "J"
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
 const lowerCaseAlphabet = alphabet.toLowerCase
