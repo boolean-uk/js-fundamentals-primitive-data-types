@@ -13,7 +13,8 @@ const secondName = 'Smith'
 //       NOT twoJanes = "JaneJane"
 
 // 1. Set this variable to firstName and secondName concatenated
-const fullName = null
+console.log(firstName + ' ' + secondName)
+const fullName = firstName + ' ' + secondName
 
 // 2. Set this variable to the 10th character of the alphabet variable
 const tenthCharacterOfAlphabet = null
