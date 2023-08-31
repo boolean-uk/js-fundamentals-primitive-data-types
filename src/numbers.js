@@ -24,7 +24,7 @@ const numThreeDividedByNumOne = numThree / numOne
 const numThreeMinusNumOne = numThree - numOne
 
 // 5. Set this variable to the sum of numOne, numTwo and numThree
-const sum = numOne +numTwo + numThree
+const sum = numOne + numTwo + numThree
 
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
 const numBytes = (numOne + numTwo + numThree) / numOne
