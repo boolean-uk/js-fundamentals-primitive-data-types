@@ -14,12 +14,12 @@ describe('Example [Extensions]', () => {
     expect(d).toBe(undefined);
   })
   it( "Check boolean", () => {
-    expect(e).toBe("boolean");
+    expect(e).toBe(false);
   })
   it( "Check boolean", () => {
-    expect(f).toBe("boolean");
+    expect(f).toBe(true);
   })
   it( "Check undefined", () => {
-    expect(g).toBe("undefined");
+    expect(g).toBe(undefined);
   })
 })
