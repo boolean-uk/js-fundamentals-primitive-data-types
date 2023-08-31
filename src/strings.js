@@ -32,4 +32,3 @@ module.exports = {
   d: numberOfLettersInAlphabet
 }
 
-console.log(lowerCaseAlphabet);
