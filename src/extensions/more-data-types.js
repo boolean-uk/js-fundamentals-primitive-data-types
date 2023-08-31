@@ -4,10 +4,10 @@
 const nullVariable = null
 
 // 2. Set this variable to be true
-const trueVariable = 5>4
+const trueVariable = 5 > 4
 
 // 2. Set this variable to be false
-const falseVariable = 4>5
+const falseVariable = 4 > 5
 
 // 3. Set this variable to be undefined
 const undefinedVariable = undefined
