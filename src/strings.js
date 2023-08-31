@@ -16,7 +16,7 @@ const secondName = 'Smith'
 const fullName = firstName + ' ' + secondName
 
 // 2. Set this variable to the 10th character of the alphabet variable
-const tenthCharacterOfAlphabet = null
+const tenthCharacterOfAlphabet = alphabet.charAt(10)
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
 const lowerCaseAlphabet = null
