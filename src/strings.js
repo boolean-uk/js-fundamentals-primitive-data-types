@@ -13,7 +13,7 @@ const secondName = 'Smith'
 //       NOT twoJanes = "JaneJane"
 
 // 1. Set this variable to firstName and secondName concatenated
-const fullName = '${firstName} ${secondName}'
+const fullName = `${firstName} ${secondName}`
 
 // 2. Set this variable to the 10th character of the alphabet variable
 const tenthCharacterOfAlphabet = alphabet[9]
@@ -22,7 +22,7 @@ const tenthCharacterOfAlphabet = alphabet[9]
 const lowerCaseAlphabet = alphabet.toLowerCase()
 
 // 4. Set this variable by using a property on the alphabet variable to get it's length
-const numberOfLettersInAlphabet = alphabet.length()
+const numberOfLettersInAlphabet = alphabet.length
 
 // do not edit the exported object.
 module.exports = {
