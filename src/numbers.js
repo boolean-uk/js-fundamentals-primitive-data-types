@@ -13,22 +13,22 @@ const numThree = 32
 
 // 1. Set this variable to numOne added to numTwo
 const numOnePlusNumTwo = numOne + numTwo
-
+console.log('E1', numOnePlusNumTwo)
 // 2. Set this variable to numThree multiplied by numTwo
 const numThreeTimesNumTwo = numThree * numTwo
-
+console.log('E2', numThreeTimesNumTwo)
 // 3. Set this variable to numThree divided by numOne
 const numThreeDividedByNumOne = numThree / numOne
-
+console.log('E3', numThreeDividedByNumOne)
 // 4. Set this variable to numThree minus numOne
 const numThreeMinusNumOne = numThree - numOne
-
+console.log('E4', numThreeMinusNumOne)
 // 5. Set this variable to the sum of numOne, numTwo and numThree
 const sum = numOne + numTwo + numThree
-
+console.log('E5', sum)
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
-const numBytes = (numOne + numTwo + numThree ) / numOne 
-
+const numBytes = (numOne + numTwo + numThree) / numOne
+console.log('E6', numBytes)
 // do not edit the exported object.
 module.exports = {
   a: numOnePlusNumTwo,
