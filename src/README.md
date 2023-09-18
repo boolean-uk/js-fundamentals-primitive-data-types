@@ -1,4 +1,5 @@
 # Data Types
+
 From text and numbers to lists, people and actions, everything in JavaScript can be represented using data types. Here are the most important ones.
 
 **Primitive types**: These are units that cannot be broken down any further
