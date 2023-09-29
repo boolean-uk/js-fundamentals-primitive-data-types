@@ -11,18 +11,32 @@ const secondName = 'Smith'
 //         and the variables above so that the tests pass.
 //       eg  twoJanes = firstName + firstName
 //       NOT twoJanes = "JaneJane"
+const twoJanes = firstName + firstName
+const firstInitial = firstName.charAt(0)
+const lastInitial = secondName.charAt(0)
+const initials = firstInitial + lastInitial
+const alphabetSubstring = alphabet.substring(0, 10)
 
+console.log(twoJanes)
+console.log(firstInitial)
+console.log(lastInitial)
+console.log(initials)
+console.log(alphabetSubstring)
 // 1. Set this variable to firstName and secondName concatenated
-const fullName = null
+const fullName = firstName + ' ' + secondName
+console.log(fullName)
 
 // 2. Set this variable to the 10th character of the alphabet variable
-const tenthCharacterOfAlphabet = null
+const tenthCharacterOfAlphabet = alphabet[9]
+console.log(tenthCharacterOfAlphabet)
 
 // 3. Set this variable by calling a method on the alphabet variable to transform it to lower case
-const lowerCaseAlphabet = null
+const lowerCaseAlphabet = alphabet.toLowerCase()
+console.log(lowerCaseAlphabet)
 
 // 4. Set this variable by using a property on the alphabet variable to get it's length
-const numberOfLettersInAlphabet = null
+const numberOfLettersInAlphabet = alphabet.length
+console.log(numberOfLettersInAlphabet)
 
 // do not edit the exported object.
 module.exports = {
