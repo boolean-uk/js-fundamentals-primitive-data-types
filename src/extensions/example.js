@@ -10,7 +10,10 @@ function getType(v) {
   if (v === null) return 'null'
   else return typeof v
 }
-
+console.log(getType(aNull))
+console.log(getType(undef))
+console.log(getType(yes))
+console.log(getType(no))
 // do not edit the exported object.
 module.exports = {
   a: getType(aNull),
