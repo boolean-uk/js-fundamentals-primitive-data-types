@@ -18,6 +18,13 @@ const typeOfTrueVariable = 'trueVariable'
 const typeOfFalseVariable = 'falseVariable'
 const typeOfUndefinedVariable = 'undefinedVariable'
 
+console.log(nullVariable)
+console.log(trueVariable)
+console.log(falseVariable)
+console.log(undefinedVariable)
+console.log(typeOfTrueVariable)
+console.log(typeOfFalseVariable)
+console.log(typeOfUndefinedVariable)
 // do not edit the exported object.
 module.exports = {
   a: nullVariable,
