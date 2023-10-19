@@ -3,9 +3,9 @@
 /* eslint-disable no-unused-vars */
 const alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 /* eslint-disable no-unused-vars */
-const firstName = 'Jane'
+const firstName = 'Jane';
 /* eslint-disable no-unused-vars */
-const secondName = 'Smith'
+const secondName = 'Smith';
 
 // TODO: Replace null in the lines below using Javascript string operations
 //         and the variables above so that the tests pass.
