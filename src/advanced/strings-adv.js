@@ -5,6 +5,10 @@ const shoppingList = 'apples, bananas, oranges, grapes'
 // TODO get the INDEX of the character where 'York' word is found in the city variable
 const cityIndex = 0
 
+console.log(city)
+console.log(cityStr)
+console.log(shoppingList)
+
 // TODO - get the substring "York" from the city variable
 const citySubstring = ''
 
