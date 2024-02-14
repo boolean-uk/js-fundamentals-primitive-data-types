@@ -1,7 +1,3 @@
-const city = 'New York'
-const cityStr = 'City'
-const shoppingList = 'apples, bananas, oranges, grapes'
-
 // TODO get the INDEX of the character where 'York' word is found in the city variable
 const cityIndex = 0
 
