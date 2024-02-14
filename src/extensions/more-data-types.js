@@ -1,22 +1,29 @@
 // TODO: Replace the empty string in the lines below using Javascript with the correct data types
 
 // 1. Set this variable to be null
-const nullVariable = ''
+const nullVariable = null
+console.log(nullVariable)
 
 // 2. Set this variable to be true
-const trueVariable = ''
+const trueVariable = true
+console.log(trueVariable)
 
 // 2. Set this variable to be the opposite of the trueVariable (ie. false);
-const falseVariable = ''
+const falseVariable = false
+console.log(falseVariable)
 
 // 3. Set this variable to be undefined
-const undefinedVariable = ''
+const undefinedVariable = undefined
+console.log(undefinedVariable)
 
 // 4. get the typeof each of the above variables
 // hint you can use typeof variable to return a string of the variable type
-const typeOfTrueVariable = ''
-const typeOfFalseVariable = ''
-const typeOfUndefinedVariable = ''
+const typeOfTrueVariable = typeof trueVariable
+console.log(typeOfTrueVariable)
+const typeOfFalseVariable = typeof falseVariable
+console.log(typeOfFalseVariable)
+const typeOfUndefinedVariable = typeof undefinedVariable
+console.log(typeOfUndefinedVariable)
 
 // do not edit the exported object.
 module.exports = {
