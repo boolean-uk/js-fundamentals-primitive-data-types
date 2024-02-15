@@ -7,6 +7,11 @@ const numOne = 20
 const numTwo = 10
 
 // TODO: 1. Update the code below using string operations on the variables
+const upperCaseHello = hello
+console.log(upperCaseHello)
+
+
+
 // above so that the tests pass.
 const upperCaseHello = hello.toUpperCase()
 const secondCharacterOfDog = animal.charAt(1)
