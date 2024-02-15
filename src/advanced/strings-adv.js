@@ -17,7 +17,7 @@ const cityEndsWith = !false
 
 // TODO - split the shopping list into an array of items without spaces
 // hint (you might want to replace first, then split)
-const shoppingListArray = shoppingList.replaceAll(' ', '').split('', '')
+const shoppingListArray = shoppingList.split(', ')
 
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
