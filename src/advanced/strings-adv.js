@@ -14,8 +14,8 @@ const citySubstring = city.substring(4)
 const cityReplaced = city.replace('York', 'Delhi')
 
 // TODO - check if city starts with 'New' and ends with 'York'
-const cityStartsWith = /^[New]/.test(city)
-const cityEndsWith = /^[York]/.test(city)
+const cityStartsWith = city.startsWith('New')
+const cityEndsWith = city.endsWith('York')
 
 // TODO - split the shopping list into an array of items without spaces
 // hint (you might want to replace first, then split)
