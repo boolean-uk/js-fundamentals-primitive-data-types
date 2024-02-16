@@ -11,7 +11,6 @@ module.exports = {
   },
   plugins: ['prettier'],
   rules: {
-    'prettier/prettier': ['error', "double"],
-    'prettier/semi': ['warn']
+    'prettier/prettier': ['error']
   }
 }
