@@ -1,15 +1,15 @@
 const city = 'New York'
 const cityStr = 'City'
-const shoppingList = 'apples, bananas, oranges, grapes'
+// const shoppingList = 'apples, bananas, oranges, grapes'
 
 // TODO get the INDEX of the character where 'York' word is found in the city variable
-const cityIndex = 0
+const cityIndex = city.indexOf('Y')
 
 // TODO - get the substring "York" from the city variable
-const citySubstring = ''
+const citySubstring = city.substring(4)
 
-// TODO = replace 'York' with 'Delhi'
-const cityReplaced = ''
+// TODO = replace 'York' with 'New Delhi'
+const cityReplaced = city.replace('York', 'Delhi')
 
 // TODO - check if city starts with 'New' and ends with 'York'
 const cityStartsWith = false
@@ -21,7 +21,7 @@ const shoppingListArray = []
 
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
-const cityStrConcat = ''
+const cityStrConcat = `${city} ${cityStr}`
 
 module.exports = {
   cityIndex,
