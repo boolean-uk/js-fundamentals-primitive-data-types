@@ -3,25 +3,34 @@ const cityStr = 'City'
 const shoppingList = 'apples, bananas, oranges, grapes'
 
 // TODO get the INDEX of the character where 'York' word is found in the city variable
-const cityIndex = 0
+const cityIndex = city.indexOf('York')
 
 // TODO - get the substring "York" from the city variable
-const citySubstring = ''
+const citySubstring = city.substring(cityIndex)
+console.log(citySubstring)
 
 // TODO = replace 'York' with 'Delhi'
-const cityReplaced = ''
+const cityReplaced = city.replace('York', 'Delhi')
+console.log(cityReplaced)
 
 // TODO - check if city starts with 'New' and ends with 'York'
-const cityStartsWith = false
-const cityEndsWith = false
+const cityStartsWith = city.startsWith('New')
+const cityEndsWith = city.endsWith('York')
+console.log(cityEndsWith)
+console.log(cityStartsWith)
 
 // TODO - split the shopping list into an array of items without spaces
 // hint (you might want to replace first, then split)
-const shoppingListArray = []
+const shoppingListArray = shoppingList.split(', ')
+console.log(shoppingList)
+
+console.log(shoppingListArray)
 
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
-const cityStrConcat = ''
+// eslint-disable-next-line prettier/prettier
+const cityStrConcat = `${city} ${cityStr}`
+console.log(cityStrConcat)
 
 module.exports = {
   cityIndex,
