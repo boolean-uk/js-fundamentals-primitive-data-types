@@ -9,7 +9,6 @@ const cityIndex = city.indexOf('Y')
 const citySubstring = city.substring(4, 8)
 
 // TODO = replace 'York' with 'New Delhi'
-// I think that the task should be : replace 'York' with 'Delhi'
 const cityReplaced = city.replace('York', 'Delhi')
 
 // TODO - check if city starts with 'New' and ends with 'York'
