@@ -8,8 +8,11 @@ const cityIndex = 4
 // TODO - get the substring "York" from the city variable
 const citySubstring = 'York'
 
+ main
 // TODO = replace 'York' with 'New Delhi'
 const cityReplaced = 'New Delhi'
+
+
 
 // TODO - check if city starts with 'New' and ends with 'York'
 const cityStartsWith = true
