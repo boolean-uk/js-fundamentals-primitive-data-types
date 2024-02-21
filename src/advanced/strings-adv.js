@@ -12,17 +12,16 @@ const citySubstring = city.slice(cityIndex,city.length)
 const cityReplaced = city.replace("York", "Delhi")
 
 // TODO - check if city starts with 'New' and ends with 'York'
-const cityStartsWith = city.startsWith("New")
-const cityEndsWith = city.endsWith("Delhi")
+const cityStartsWith = cityReplaced.startsWith("New")
+const cityEndsWith = cityReplaced.endsWith("Delhi")
 
 // TODO - split the shopping list into an array of items without spaces
 // hint (you might want to replace first, then split)
-const shoppingListArray = shoppingList.replace(",", "").split(" ")
+const shoppingListArray = shoppingList.replaceAll(",", "").split(" ")
 
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
-city = "New York"
-const cityStrConcat = "${city} ${cityStr}"
+const cityStrConcat = `${city} ${cityStr}`
 
 module.exports = {
   cityIndex,
