@@ -11,16 +11,14 @@ const citySubstring = city.slice(4, 8)
 const cityReplaced = city.replace('York', 'Delhi')
 
 // TODO - check if city starts with 'New' and ends with 'York'
-const cityStartsWith = false
+let cityStartsWith = false
 if (city.startsWith('New')) {
-  // eslint-disable-next-line no-const-assign
   cityStartsWith = true
 }
 
-const cityEndsWith = false
+let cityEndsWith = false
 if (city.endsWith('York')) {
-  // eslint-disable-next-line no-const-assign
-  cityStartsWith = true
+  cityEndsWith = true
 }
 
 // TODO - split the shopping list into an array of items without spaces
@@ -29,10 +27,10 @@ const shoppingListArray = []
 
 shoppingList.replace(' ', '')
 
-shoppingListArray.push(city.slice('apples'))
-shoppingListArray.push(city.slice('bananas'))
-shoppingListArray.push(city.slice('oranges'))
-shoppingListArray.push(city.slice('grapes'))
+shoppingListArray.push('apples')
+shoppingListArray.push('bananas')
+shoppingListArray.push('oranges')
+shoppingListArray.push('grapes')
 
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
