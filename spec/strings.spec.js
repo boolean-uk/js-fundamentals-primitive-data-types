@@ -1,4 +1,4 @@
-const { a, b, c, d } = require('../src/strings')
+const { a, b, c, d } = require('../src/string')
 
 describe('Strings:', () => {
   it('fullName is Jame Smith', () => {
