@@ -29,7 +29,6 @@ const sum = numOne + numTwo + numThree
 // 6. Set this variable to the sum of (numOne, numTwo, numThree) divided by numOne
 const numBytes = (numOne + numThree + numTwo) / numOne
 
-console.log(numOnePlusNumTwo)
 
 // do not edit the exported object.
 module.exports = {
