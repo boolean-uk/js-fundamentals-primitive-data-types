@@ -19,7 +19,7 @@ const shoppingListArray =''
 // TODO - concatenate two strings using the `${var}` syntax
 // make cityStrConcat equal to 'New York City'
 const cityStrConcat = `${city} ${cityStr}`
-
+console.log("test")
 module.exports = {
   cityIndex,
   citySubstring,
